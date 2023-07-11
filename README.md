@@ -44,22 +44,42 @@ This tutorial outlines the implementation of on-premises Active Directory within
   -Choose the Azure region that's right for you 
   
   -Then click on Reviwe + create
-  
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+ <h1>Create a Windows 10 Virtual Machine (VM)</h1>
+
+![image](https://github.com/KevinVCruz26/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/139089937/0a373329-68cf-4312-961b-616ecb5ba20f)
+
+
+ -In the search bar type in "Virtual Machine"
+
+ -click on +create tab
+
+![image](https://github.com/KevinVCruz26/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/139089937/ebac7ed2-94d6-4f0d-acf0-d696e3f4af64)
+
+-While creating the VM, select the previously created Resource Group
+
+-Image is the base operating system or application for the VM, Click the down arrow and locate Widows 10
+
+-While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+
+
+<h1>Create a Linux (Ubuntu) VM</h1>
+
+![image](https://github.com/KevinVCruz26/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/139089937/421b3d14-b8f3-4fc7-95de-6f9aa56c0f6b)
+
+-While creating the VM, select the previously created Resource Group
+
+-Image is the base operating system or application for the VM, Click the down arrow and locate Ubuntu
+
+-While creating the VM, select the previously created Resource Group and Vnet
+
+![image](https://github.com/KevinVCruz26/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/139089937/2bd0478a-f356-4f5c-a056-5f2abe54189b)
+
+<h1>Observe Your Virtual Network within Network Watcher</h1>
+
+![image](https://github.com/KevinVCruz26/Configuring-On-premises-Active-Directory-within-Azure-VMs/assets/139089937/4e26c257-0438-44ea-a6a9-b1afdf6a0092)
+
+-In the search bar type in "Network Watcher"
+
+-go to Diagnostic logs tab to see if both (Vm)s are there
